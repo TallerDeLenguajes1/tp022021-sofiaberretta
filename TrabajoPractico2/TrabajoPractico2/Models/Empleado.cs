@@ -12,26 +12,28 @@ namespace TrabajoPractico2.Models
         private DateTime fechaNacimiento;
         private int edad;
         private string direccion;
-        private int telefono;
+        private string telefono;
         private string puesto;
         private DateTime fechaIngreso;
         private int antiguedad;
         private double salario;
         private const float sueldoBasico = 20000;
 
+        //public static List<Empleado> listaEmpleados = new List<Empleado>();
+
         public string Nombre { get => nombre; set => nombre = value; }
         public string Apellido { get => apellido; set => apellido = value; }
         public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
         public int Edad { get => edad;}
         public string Direccion { get => direccion; set => direccion = value; }
-        public int Telefono { get => telefono; set => telefono = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
         public string Puesto { get => puesto; set => puesto = value; }
         public DateTime FechaIngreso { get => fechaIngreso; set => fechaIngreso = value; }
         public int Antiguedad { get => antiguedad;}
         public double Salario { get => salario;}
         public static float SueldoBasico => sueldoBasico;
 
-        public Empleado(string nombre, string apellido, DateTime fechaNacimiento, string direccion, int telefono, string puesto, DateTime fechaIngreso)
+        public Empleado(string nombre, string apellido, DateTime fechaNacimiento, string direccion, string telefono, string puesto, DateTime fechaIngreso)
         {
             this.nombre = nombre;
             this.apellido = apellido;

@@ -1,0 +1,17 @@
+2021-09-10 22:15:52.2991|0|DEBUG|TrabajoPractico2.Program|init main 
+2021-09-10 22:15:52.9096|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-10 22:15:52.9096|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-09-10 22:15:52.9096|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Facultad\2021\2do cuatrimestre\Taller de Lenguajes II\tp022021-sofiaberretta\TrabajoPractico2\TrabajoPractico2 
+2021-09-10 22:15:52.9600|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:16:16.8824|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:16:16.9130|0|INFO|TrabajoPractico2.Startup|Datos ingresados: Sofia Berretta, 20 años, 6 años en la empresa, salario de $20000. 
+2021-09-10 22:16:19.1664|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:16:53.7620|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:16:53.7664|0|INFO|TrabajoPractico2.Startup|Datos ingresados: Santi Berretta, 22 años, 6 años en la empresa, salario de $20000. 
+2021-09-10 22:18:36.6833|0|DEBUG|TrabajoPractico2.Program|init main 
+2021-09-10 22:18:37.3086|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-09-10 22:18:37.3146|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-09-10 22:18:37.3146|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Facultad\2021\2do cuatrimestre\Taller de Lenguajes II\tp022021-sofiaberretta\TrabajoPractico2\TrabajoPractico2 
+2021-09-10 22:18:37.3597|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:18:38.3955|0|INFO|TrabajoPractico2.Startup|NLog injected into HomeController 
+2021-09-10 22:18:38.4180|0|ERROR|TrabajoPractico2.Startup|Se ingresaron datos vacios. 

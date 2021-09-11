@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model TrabajoPractico2.Models.Empleado
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Edad</td>
+            <td>Antiguedad</td>
+            <td>Salario</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Nombre</td>
+            <td>@Model.Apellido</td>
+            <td>@Model.Edad</td>
+            <td>@Model.Antiguedad</td>
+            <td>@Model.Salario</td>
+        </tr>
+    </tbody>
+</table>
