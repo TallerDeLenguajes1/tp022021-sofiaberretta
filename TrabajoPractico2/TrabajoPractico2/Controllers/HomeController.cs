@@ -42,8 +42,6 @@ namespace TrabajoPractico2.Controllers
                     Empleado nuevoEmpleado = new Empleado(nombre, apellido, fechaNacimiento, direc, tel, puesto, fechaIng);
                     _logger.Info("Datos ingresados: " + nombre + " " + apellido + ", " + nuevoEmpleado.Edad + " años, " + nuevoEmpleado.Antiguedad + " años en la empresa, salario de $" + nuevoEmpleado.Salario + ".");
 
-                    Empleado.listaEmpleados.Add(nuevoEmpleado);
-
                     return View(nuevoEmpleado);
                 }
                 else

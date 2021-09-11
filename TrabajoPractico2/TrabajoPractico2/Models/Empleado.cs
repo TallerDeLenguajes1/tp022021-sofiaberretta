@@ -76,16 +76,16 @@ namespace TrabajoPractico2.Models
 
         public double calcularSalario(int antiguedad)
         {
-            float descuento = (15 / 100) * sueldoBasico;
+            double descuento = 0.15;
 
-            float adicional;
+            double adicional;
             if(antiguedad < 20)
             {
-                adicional = (1 / 100) * antiguedad;
+                adicional = 0.01 * antiguedad;
             }
             else
             {
-                adicional = 25 / 100;
+                adicional = 0.25;
             }
 
             salario = sueldoBasico + (adicional * sueldoBasico) - (descuento * sueldoBasico);
